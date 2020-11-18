@@ -1,0 +1,499 @@
+2020-11-17 09:09:32.7935 Info Message Template Auto Format enabled
+2020-11-17 09:09:32.8183 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:09:32.8775 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:09:32.9275 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:09:32.9819 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:10:39.6577 Info Message Template Auto Format enabled
+2020-11-17 09:10:39.6811 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:10:39.7340 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:10:39.7826 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:10:39.8727 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:13:45.5625 Info Message Template Auto Format enabled
+2020-11-17 09:13:45.5896 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:13:45.6477 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:13:45.7000 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:13:45.7482 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:15:41.9258 Info AppDomain Shutting down. Logger closing...
+2020-11-17 09:15:41.9662 Info Logger has been shut down.
+2020-11-17 09:18:38.7195 Info Message Template Auto Format enabled
+2020-11-17 09:18:38.7442 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:18:38.7979 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:18:38.8515 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:18:38.9221 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:22:17.2616 Info Message Template Auto Format enabled
+2020-11-17 09:22:17.2905 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:22:17.3362 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:22:17.3852 Warn Error when setting '${all-event-properties}' on attibute 'layout' Exception: System.NotSupportedException: Parameter layout not supported on JsonLayout
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-11-17 09:22:17.4293 Error Exception when parsing D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config.  Exception: System.NotSupportedException: Parameter layout not supported on JsonLayout
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.ParseArrayItemFromElement(Type elementType, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.AddArrayItemFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-11-17 09:22:17.4384 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config. 
+ ---> System.NotSupportedException: Parameter layout not supported on JsonLayout
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.ParseArrayItemFromElement(Type elementType, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.AddArrayItemFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-11-17 09:22:17.4867 Info Validating config: TargetNames=logconsole, ConfigItems=10, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:22:17.5049 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2020-11-17 09:22:57.1955 Info Message Template Auto Format enabled
+2020-11-17 09:22:57.2190 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:22:57.2665 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:22:57.3178 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:22:57.3705 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=37, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:23:56.8767 Info Message Template Auto Format enabled
+2020-11-17 09:23:56.9026 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:23:56.9534 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:23:57.0018 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:23:57.0500 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:28:57.9890 Info AppDomain Shutting down. Logger closing...
+2020-11-17 09:28:58.0270 Info Logger has been shut down.
+2020-11-17 09:31:50.6011 Info Message Template Auto Format enabled
+2020-11-17 09:31:50.6220 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:31:50.6650 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:31:50.7204 Warn Error when setting property 'Layout' on 'NLog.Layouts.JsonAttribute' Exception: NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2020-11-17 09:31:50.7643 Warn Error when setting '${all-event-properties:format=String:separator=String:includeCallerInformation=Boolean:includeEmptyValues=boolean}' on attibute 'layout' Exception: NLog.NLogConfigurationException: Error when setting property 'Layout' on JsonAttribute
+ ---> NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-11-17 09:31:50.7643 Error Exception when parsing D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config.  Exception: NLog.NLogConfigurationException: Error when setting property 'Layout' on JsonAttribute
+ ---> NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseArrayItemFromElement(Type elementType, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.AddArrayItemFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-11-17 09:31:50.7797 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config. 
+ ---> NLog.NLogConfigurationException: Error when setting property 'Layout' on JsonAttribute
+ ---> NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseArrayItemFromElement(Type elementType, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.AddArrayItemFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-11-17 09:31:50.8350 Info Validating config: TargetNames=logconsole, ConfigItems=10, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:31:50.8503 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2020-11-17 09:33:00.2960 Info Message Template Auto Format enabled
+2020-11-17 09:33:00.3181 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:33:00.3613 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:33:00.4091 Warn Error when setting property 'Layout' on 'NLog.Layouts.JsonAttribute' Exception: NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+2020-11-17 09:33:00.4517 Warn Error when setting '${all-event-properties:format=String:separator=String:includeCallerInformation=Boolean:includeEmptyValues=boolean}' on attibute 'layout' Exception: NLog.NLogConfigurationException: Error when setting property 'Layout' on JsonAttribute
+ ---> NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+2020-11-17 09:33:00.4517 Error Exception when parsing D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config.  Exception: NLog.NLogConfigurationException: Error when setting property 'Layout' on JsonAttribute
+ ---> NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseArrayItemFromElement(Type elementType, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.AddArrayItemFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+2020-11-17 09:33:00.4661 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config. 
+ ---> NLog.NLogConfigurationException: Error when setting property 'Layout' on JsonAttribute
+ ---> NLog.NLogConfigurationException: Error when setting property 'Format' on AllEventPropertiesLayoutRenderer
+ ---> System.ArgumentException: Invalid format: [key] placeholder is missing.
+   at NLog.LayoutRenderers.AllEventPropertiesLayoutRenderer.set_Format(String value)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Layouts.LayoutParser.ParseLayoutRenderer(ConfigurationItemFactory configurationItemFactory, SimpleStringReader stringReader, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.LayoutParser.CompileLayout(ConfigurationItemFactory configurationItemFactory, SimpleStringReader sr, Nullable`1 throwConfigExceptions, Boolean isNested, String& text)
+   at NLog.Layouts.SimpleLayout.SetLayoutText(String value, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   at NLog.Layouts.SimpleLayout..ctor(String txt, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryParseLayoutValue(String stringValue, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Internal.PropertyHelper.TryNLogSpecificConversion(Type propertyType, String value, ConfigurationItemFactory configurationItemFactory, Object& newValue)
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   --- End of inner exception stack trace ---
+   at NLog.Internal.PropertyHelper.SetPropertyFromString(Object obj, String propertyName, String value, ConfigurationItemFactory configurationItemFactory)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromAttributes(Object targetObject, ILoggingConfigurationElement element, Boolean ignoreType)
+   at NLog.Config.LoggingConfigurationParser.ParseArrayItemFromElement(Type elementType, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.AddArrayItemFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ConfigureObjectFromElement(Object targetObject, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetItemOnProperty(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element, Object properyValue)
+   at NLog.Config.LoggingConfigurationParser.SetLayoutFromElement(Object o, PropertyInfo propInfo, ILoggingConfigurationElement element)
+   at NLog.Config.LoggingConfigurationParser.SetPropertyFromElement(Object o, ILoggingConfigurationElement childElement, ILoggingConfigurationElement parentElement)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetElement(Target target, ILoggingConfigurationElement targetElement, Dictionary`2 typeNameToDefaultTargetParameters)
+   at NLog.Config.LoggingConfigurationParser.ParseTargetsElement(ILoggingConfigurationElement targetsElement)
+   at NLog.Config.LoggingConfigurationParser.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogSection(ILoggingConfigurationElement configSection)
+   at NLog.Config.LoggingConfigurationParser.LoadConfig(ILoggingConfigurationElement nlogConfig, String basePath)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(ILoggingConfigurationElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.ParseTopLevel(NLogXmlElement content, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2020-11-17 09:33:00.5217 Info Validating config: TargetNames=logconsole, ConfigItems=10, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:33:00.5371 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: logconsole
+2020-11-17 09:40:37.9053 Info Message Template Auto Format enabled
+2020-11-17 09:40:37.9281 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:40:37.9764 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:40:38.0308 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:40:38.0807 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=39, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:49:19.2091 Info Message Template Auto Format enabled
+2020-11-17 09:49:19.2373 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:49:19.2961 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:49:19.4214 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:49:19.4702 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:53:10.5891 Info Message Template Auto Format enabled
+2020-11-17 09:53:10.6171 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:53:10.6791 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:53:10.7336 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:53:10.8005 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 09:53:56.1038 Info Message Template Auto Format enabled
+2020-11-17 09:53:56.1275 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 09:53:56.1771 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 09:53:56.2251 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 09:53:56.2783 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 10:01:30.3565 Info Message Template Auto Format enabled
+2020-11-17 10:01:30.3921 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 10:01:30.4562 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 10:01:30.5045 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 10:01:30.5564 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 10:04:32.3158 Info Message Template Auto Format enabled
+2020-11-17 10:04:32.3440 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 10:04:32.3918 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 10:04:32.4436 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 10:04:32.4932 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 10:05:20.9676 Info Message Template Auto Format enabled
+2020-11-17 10:05:20.9912 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 10:05:21.0654 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 10:05:21.1209 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 10:05:21.1686 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 10:07:54.1240 Info Message Template Auto Format enabled
+2020-11-17 10:07:54.1493 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 10:07:54.4013 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 10:07:54.4688 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 10:07:54.5486 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 10:08:19.2304 Info Message Template Auto Format enabled
+2020-11-17 10:08:19.2550 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 10:08:19.3082 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 10:08:19.3570 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 10:08:19.4260 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:38:22.4449 Info Message Template Auto Format enabled
+2020-11-17 19:38:22.5287 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:38:22.8583 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:38:23.1589 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:38:23.2502 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:38:58.1924 Info Message Template Auto Format enabled
+2020-11-17 19:38:58.2147 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:38:58.2580 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:38:58.3029 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:38:58.3485 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:40:43.8630 Info Message Template Auto Format enabled
+2020-11-17 19:40:43.8897 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:40:43.9428 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:40:44.0054 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:40:44.0584 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:43:45.3120 Info Message Template Auto Format enabled
+2020-11-17 19:43:45.3351 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:43:45.3831 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:43:45.4306 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:43:45.4778 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:46:05.7398 Info Message Template Auto Format enabled
+2020-11-17 19:46:05.7657 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:46:05.8111 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:46:05.8582 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:46:05.9057 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:47:20.8971 Info Message Template Auto Format enabled
+2020-11-17 19:47:20.9202 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:47:20.9691 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:47:21.0177 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:47:21.0722 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:50:25.3934 Info Message Template Auto Format enabled
+2020-11-17 19:50:25.4163 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:50:25.4651 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:50:25.5135 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:50:25.5593 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:52:31.3810 Info Message Template Auto Format enabled
+2020-11-17 19:52:31.4034 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:52:31.4477 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:52:31.4931 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:52:31.5382 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 19:53:47.1026 Info Message Template Auto Format enabled
+2020-11-17 19:53:47.1241 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 19:53:47.1687 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 19:53:47.2466 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 19:53:47.3028 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:01:40.4222 Info Message Template Auto Format enabled
+2020-11-17 20:01:40.4680 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:01:40.5462 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:01:40.6358 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:01:40.7209 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:02:10.1611 Info Message Template Auto Format enabled
+2020-11-17 20:02:10.1844 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:02:10.2303 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:02:10.2825 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:02:10.3321 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:09:19.7864 Info Message Template Auto Format enabled
+2020-11-17 20:09:19.8319 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:09:19.8925 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:09:19.9505 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:09:20.0094 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:09:44.7931 Info Message Template Auto Format enabled
+2020-11-17 20:09:44.8153 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:09:44.8713 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:09:44.9223 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:09:44.9721 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:10:39.7639 Info Message Template Auto Format enabled
+2020-11-17 20:10:39.7877 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:10:39.8398 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:10:39.8919 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:10:39.9428 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:13:29.0964 Info Message Template Auto Format enabled
+2020-11-17 20:13:29.1278 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:13:29.1764 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:13:29.2267 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:13:29.2827 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:14:05.3774 Info Message Template Auto Format enabled
+2020-11-17 20:14:05.4015 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:14:05.4621 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:14:05.5184 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:14:05.5925 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:16:00.8691 Info Message Template Auto Format enabled
+2020-11-17 20:16:00.8926 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:16:00.9395 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:16:00.9889 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:16:01.0849 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:16:37.4777 Info AppDomain Shutting down. Logger closing...
+2020-11-17 20:16:37.5050 Info Logger has been shut down.
+2020-11-17 20:16:40.6942 Info Message Template Auto Format enabled
+2020-11-17 20:16:40.7182 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:16:40.7654 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:16:40.8186 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:16:40.9390 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:18:25.8064 Info Message Template Auto Format enabled
+2020-11-17 20:18:25.8328 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:18:25.8963 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:18:25.9642 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:18:26.0152 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:20:43.8192 Info Message Template Auto Format enabled
+2020-11-17 20:20:43.8463 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:20:43.9034 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:20:43.9539 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:20:44.0116 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:21:07.6453 Info Message Template Auto Format enabled
+2020-11-17 20:21:07.6682 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:21:07.7271 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:21:07.7939 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:21:07.8747 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:21:39.4998 Info Message Template Auto Format enabled
+2020-11-17 20:21:39.5294 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:21:39.5800 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:21:39.6326 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:21:39.6945 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:22:10.3671 Info Message Template Auto Format enabled
+2020-11-17 20:22:10.3929 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:22:10.4548 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:22:10.5109 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:22:10.5610 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:24:44.8913 Info Message Template Auto Format enabled
+2020-11-17 20:24:44.9198 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:24:44.9678 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:24:45.0145 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:24:45.0614 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:28:41.8931 Info Message Template Auto Format enabled
+2020-11-17 20:28:41.9172 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:28:41.9654 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:28:42.0159 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:28:42.0875 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:28:59.0037 Info Message Template Auto Format enabled
+2020-11-17 20:28:59.0434 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:28:59.0988 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:28:59.1490 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:28:59.2041 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:33:43.2116 Info Message Template Auto Format enabled
+2020-11-17 20:33:43.2373 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:33:43.2903 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:33:43.3438 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:33:43.4554 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:40:49.3742 Info Message Template Auto Format enabled
+2020-11-17 20:40:49.4072 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:40:49.4811 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:40:49.5376 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:40:49.6129 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:41:59.3744 Info Message Template Auto Format enabled
+2020-11-17 20:41:59.3976 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:41:59.4480 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:41:59.5059 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:41:59.5594 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 20:44:18.9367 Info Message Template Auto Format enabled
+2020-11-17 20:44:18.9589 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 20:44:19.0071 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 20:44:19.0579 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 20:44:19.1186 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 21:06:01.3007 Info Message Template Auto Format enabled
+2020-11-17 21:06:01.3477 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 21:06:01.4604 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 21:06:01.5269 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 21:06:01.5863 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 21:09:36.2535 Info Message Template Auto Format enabled
+2020-11-17 21:09:36.3053 Info Loading assembly: NLog.Web.AspNetCore
+2020-11-17 21:09:36.3502 Info Adding target AsyncTargetWrapper(Name=logconsole)
+2020-11-17 21:09:36.4015 Info Adding target AsyncTargetWrapper(Name=allfile)
+2020-11-17 21:09:36.4574 Info Validating config: TargetNames=logconsole, allfile, ConfigItems=36, FilePath=D:\Workspaces\Apps\healthcheck\HealthCheck\HealthCheck.MicroA.Api\bin\Debug\netcoreapp3.1\nlog.config
+2020-11-17 21:11:38.4795 Info AppDomain Shutting down. Logger closing...
+2020-11-17 21:11:38.5066 Info Logger has been shut down.
